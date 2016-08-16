@@ -1,7 +1,7 @@
 class SomeClass
 
   def maximum_deviation(proposed_deviation)
-    [proposed_deviation, standard_deviation].sort.last
+    proposed_deviation > standard_deviation ? proposed_deviation : standard_deviation
   end
   
   
